@@ -1,5 +1,8 @@
 # backend_modelML
+## Cloud Architecture
+![Screenshot_66](https://github.com/MenTion-Mental-Health-Education/backend_modelML/assets/125712423/832ee56e-d74c-4bdb-a79d-7b528801799e)
 
+## Getting Started
 1. git clone https://github.com/MenTion-Mental-Health-Education/backend_modelML.git in Google Console editor
 2. add ProjectID
 ``PROJECT_ID=replaceyourProjectID``
