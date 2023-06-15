@@ -1,6 +1,6 @@
 # backend_modelML
 
-1. git clone https://github.com/MenTion-Mental-Health-Education/backend_modelML.git
+1. git clone https://github.com/MenTion-Mental-Health-Education/backend_modelML.git in Google Console editor
 2. add ProjectID
 ``PROJECT_ID=replaceyourProjectID``
 4. Build using
