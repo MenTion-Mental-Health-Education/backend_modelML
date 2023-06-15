@@ -16,3 +16,15 @@
 9. in **Authentication** select **Allow unauthenticated invocations**
 10. Configure the Capacity **Memory and CPU**
 11. Click Create
+
+## How to Access Our API
+### 1. Predict ==>method `post`
+
+`{{yourcloudrunlink}}/predict`
+
+JSON Body
+```
+{
+    "text": "i didnt feel humiliated"
+}
+```
