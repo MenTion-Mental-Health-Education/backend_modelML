@@ -18,13 +18,13 @@
 11. Click Create
 
 ## How to Access Our API
-### 1. Predict ==>method `post`
+### 1. chat ==>method `post`
 
-`{{yourcloudrunlink}}/predict`
+`{{yourcloudrunlink}}/chat`
 
 JSON Body
 ```
 {
-    "text": "i didnt feel humiliated"
+    "input": "i didnt feel humiliated"
 }
 ```
