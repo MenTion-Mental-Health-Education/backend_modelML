@@ -28,3 +28,6 @@ JSON Body
     "input": "i didnt feel humiliated"
 }
 ```
+### 2. chat ==>method `get`
+
+`{{yourcloudrunlink}}/chat`
