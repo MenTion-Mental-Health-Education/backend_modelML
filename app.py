@@ -60,11 +60,22 @@ def generate_alternative_response(emotion):
     alternative_response = random.choice(alternative_responses)
     return alternative_response
 
+user_inputs = []
+
 @app.route('/chat', methods=['POST'])
-def chat():
+def send_user_input():
     data = request.get_json()
     user_input = data['input']
+    user_inputs.append(user_input)
 
+    return jsonify({'message': 'User input received and stored.'})
+
+@app.route('/chat', methods=['GET'])
+def get_chat_response():
+    if len(user_inputs) == 0:
+        return jsonify({'message': 'No user input available.'})
+
+    user_input = user_inputs[-1]  # Retrieve the latest user input
     response = generate_response(user_input)
     alternative_response = generate_alternative_response(response)
 
