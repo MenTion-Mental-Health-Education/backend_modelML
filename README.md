@@ -11,7 +11,7 @@
 5. Push to registry
 ``docker push gcr.io/$PROJECT_ID/app:0.1``
 6. Go to Cloud Run and Create Service
-7. Select **Deploy one revision from an existing container image** and Click **Container Registry** and Click **gcr.io/$PROJECT_ID/app** and select the image version
+7. Select **Deploy one revision from an existing container image** and Click **Container Registry** and Click **gcr.io/$PROJECT_ID/app** and select the image version that you have created
 8. configure the service name and AutoScalling
 9. in **Authentication** select **Allow unauthenticated invocations**
 10. Configure the Capacity **Memory and CPU**
